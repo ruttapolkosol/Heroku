@@ -17,9 +17,9 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="experience" placeholder="ประสบการ์ณ" required="required" />
-        <input type="text" name="test_score" placeholder="คะแนนของการทดสอบ" required="required" />
-		<input type="text" name="interview_score" placeholder="คะแนนสัมภาษณ์" required="required" />
+    	<input type="text" name="experience" placeholder="E" required="required" />
+        <input type="text" name="test_score" placeholder="Score" required="required" />
+		<input type="text" name="interview_score" placeholder="Interview Score" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
